@@ -214,7 +214,7 @@ public class Main {
                         System.out.println("Execute: Menu 5-B");
                         System.out.println("                 ");
 
-                        System.out.println("Enter a Value : ");
+                        System.out.println("Enter a Value. : ");
                         int value  = scanner.nextInt();
 
                         TypeCasting itypes = new TypeCasting();
