@@ -1,28 +1,28 @@
-//Soal Week 1 - Task 0 - Day 2
+package Week1.Task0_Day2;//Soal Week 1 - Task 0 - Day 2
 
 /*
 Program Data Types
 
     Buatlah sebuah program Java dengan instruksi dibawah ini:
-        I Class IntegerTypes
+        I Class Week1.Task0_Day2.IntegerTypes
             a.Method kalkulasi kota dengan parameter cityA & cityB menggunakan int dan operator penambahan
             b.Method convert meter to kilometer menggunakan data type long
 
-        II Class DecimalTypes
+        II Class Week1.Task0_Day2.DecimalTypes
             a.Method kalkulasi average dengan dua parameter a, b menggunakan data type double
             b.Method kalkulasi harga + pajak dengan dua parameter float price & taxRate
 
-        III Class StringTypes
+        III Class Week1.Task0_Day2.StringTypes
             a.Method pembuatan full name dengan dua argument first name, last name
             b.Method pengecekan String yang mengembalikan true jika String null, empty ataupun hanya ada spasi
 
-        IV Class BooleanTypes
+        IV Class Week1.Task0_Day2.BooleanTypes
             a.Method pengecekan umur diatas 18 tahun dan tidak boleh menggunakan if hanya operator
 
-        V Class TypeCasting
+        V Class Week1.Task0_Day2.TypeCasting
             a.Method convert double ke int
             b.Method convert int ke double
-        VI Class Main untuk memanggil seluruh methods yang sudah dibuat
+        VI Class Week1.Task0_Day2.Main untuk memanggil seluruh methods yang sudah dibuat
         VII Pasang proper java doc untuk setiap method dan class
 
 */
@@ -37,7 +37,7 @@ public class Main {
 
         while (isRunning){
 
-            //Main Menu
+            //Week1.Task0_Day2.Main Menu
             System.out.println("========== Main Menu (Choose Option) =========");
             System.out.println("1 - I. Class Integer Types");
             System.out.println("2 - II. Class Decimal Types");
@@ -72,7 +72,7 @@ public class Main {
             //Switch Case
 
             switch (mainMenuType){
-                //I Class IntegerTypes
+                //I Class Week1.Task0_Day2.IntegerTypes
                 case 1:
                     if (subMenuTypes == 1){
                         System.out.println("Execute: Menu 1-A");
@@ -108,7 +108,7 @@ public class Main {
                     }
                     isRunning = false;
                     break;
-                //II Class DecimalTypes
+                //II Class Week1.Task0_Day2.DecimalTypes
                 case 2:
                     if (subMenuTypes == 1){
                         System.out.println("Execute: Menu 2-A");
@@ -145,7 +145,7 @@ public class Main {
                     isRunning = false;
                     break;
 
-                //III Class StringTypes
+                //III Class Week1.Task0_Day2.StringTypes
                 case 3:
                     if (subMenuTypes == 1){
                         System.out.println("Execute: Menu 3-A");
@@ -180,7 +180,7 @@ public class Main {
                     isRunning = false;
                     break;
 
-                //IV Class BooleanTypes
+                //IV Class Week1.Task0_Day2.BooleanTypes
                 case 4:
                     if (subMenuTypes == 1){
                         System.out.println("Execute: Menu 4-A");

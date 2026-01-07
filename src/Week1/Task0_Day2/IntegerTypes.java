@@ -1,3 +1,5 @@
+package Week1.Task0_Day2;
+
 /**
  * Provides utility methods for integer-based distance calculations and unit conversions.
  */

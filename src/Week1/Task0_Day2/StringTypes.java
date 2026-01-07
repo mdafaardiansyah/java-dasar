@@ -1,3 +1,4 @@
+package Week1.Task0_Day2;
 
 /**
  * Provides utility methods for common String manipulations and checks
